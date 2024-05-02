@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "run-p dev:*",
+    "dev:wrangler": "wrangler pages dev dist --live-reload",
+    "dev:esbuild": "esbuild --bundle src/index.ts --format=esm --watch --outfile=dist/_worker.js",
+    "build": "esbuild --bundle src/index.ts --format=esm --platform=node --outfile=dist/_worker.js",
+    "deploy": "wrangler pages publish dist"
   },
   "dependencies": {
     "@hono/node-server": "^1.11.1",
