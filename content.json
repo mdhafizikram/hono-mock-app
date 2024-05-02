@@ -1,0 +1,55 @@
+[
+  {
+    "strm": "2247",
+    "courseId": "104171",
+    "timestamp": 1709654837998,
+    "courseOfferNumber": "1",
+    "subject": "CSE",
+    "catalogNumber": "100",
+    "primaryOwningDepartmentAcadOrg": "CCOMPENG",
+    "primaryOwningParentCollegeAcadOrg": "CES",
+    "splitOwners": null,
+    "primaryOwningDepartmentDescription": "Computer Science and Engineering Program",
+    "primaryOwningParentCollegeDescription": "Ira A. Fulton Schools of Engineering",
+    "catalogPrint": true,
+    "acadCareerCode": "UGRD",
+    "description": "Principles of Programming with C++",
+    "fullDescription": "Principles of problem solving using C++, algorithm design, structured programming, fundamental algorithms and techniques, and computer systems concepts. Social and ethical responsibility.",
+    "approvedUnitsMinimum": 3,
+    "approvedUnitsMaximum": 3,
+    "defaultUnitsMinimum": 3,
+    "defaultUnitsMaximum": 3,
+    "academicProgressUnits": 3,
+    "financialAidProgressUnits": 3,
+    "courseRepeatable": false,
+    "totalCompletionsAllowed": 1,
+    "totalUnitsAllowed": 3,
+    "allowMultipleEnrollmentsInTerm": false,
+    "requirementDesignationCode": "GE48",
+    "requirementDesignationDescription": "QTRS OR CS",
+    "requirementGroupCode": null,
+    "requirementGroupDescription": null,
+    "greatestTermOffered": "2251",
+    "equivalentCourseGroupId": null,
+    "gradingBasisCode": "OPT",
+    "gradingBasisDescription": "Student Option",
+    "topics": null,
+    "components": [
+      {
+        "code": "LAB",
+        "description": "Laboratory",
+        "graded": false,
+        "optional": false,
+        "primary": false
+      },
+      {
+        "code": "LEC",
+        "description": "Lecture",
+        "graded": true,
+        "optional": false,
+        "primary": true
+      }
+    ],
+    "equivalentCourses": []
+  }
+]
